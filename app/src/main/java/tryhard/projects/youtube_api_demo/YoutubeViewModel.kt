@@ -1,4 +1,4 @@
-package tryhard.projects.youtube_api_demo.ui
+package tryhard.projects.youtube_api_demo
 
 import android.content.Intent
 import androidx.lifecycle.ViewModel
@@ -17,7 +17,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import tryhard.projects.youtube_api_demo.Application
 
 class YoutubeViewModel : ViewModel() {
     private val _state = MutableStateFlow(State.CHECKING_CONTACTS_PERMISSION)

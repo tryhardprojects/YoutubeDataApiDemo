@@ -23,12 +23,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.lifecycle.viewmodel.viewModelFactory
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.PermissionStatus
 import com.google.accompanist.permissions.rememberPermissionState
-import tryhard.projects.youtube_api_demo.ui.State
-import tryhard.projects.youtube_api_demo.ui.YoutubeViewModel
 
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
